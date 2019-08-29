@@ -111,7 +111,7 @@ def wpadmin_render_user_tools(context, item, is_first, is_last):
         'item': item,
         'is_first': is_first,
         'is_last': is_last,
-        'is_user_allowed': context.get('request').user.is_authenticated()
+        'is_user_allowed': context.get('request').user.is_authenticated
         and item.is_user_allowed(context.get('request').user),
     })
     return context
