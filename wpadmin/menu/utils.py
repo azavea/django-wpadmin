@@ -3,7 +3,7 @@ Menu utilities.
 """
 from fnmatch import fnmatch
 from importlib import import_module
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from wpadmin.utils import (
     get_wpadmin_settings, get_admin_site, get_admin_site_name)

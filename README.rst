@@ -3,7 +3,7 @@ Django WP Admin
 ===============
 ----------------------------------------------------------------------------------------------------------------------
 
-**** Forked for use with Django 1.8 ****
+**** Forked for use with Django 1.8+ ****
 
 ----------------------------------------------------------------------------------------------------------------------
 `WordPress <http://wordpress.org/>`_ look and feel for `Django <http://www.djangoproject.com/>`_ administration panel.
